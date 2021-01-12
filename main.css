@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@300;700&family=Playfair+Display:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish:wght@300;700&family=Playfair+Display:wght@700&display=swap");
 
 * {
   padding: 0;
@@ -25,6 +25,8 @@ nav {
 .header-logo {
   display: flex;
   align-items: center;
+  justify-content: center;
+  width: 30%;
 }
 
 nav ul {
@@ -33,13 +35,13 @@ nav ul {
   width: 50%;
   justify-content: space-around;
   align-items: center;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #b8becd;
   font-size: 16px;
 }
 
 nav button {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 16px;
   background: none;
   border: none;
@@ -79,14 +81,14 @@ nav button {
 }
 
 .explore-title p {
-  font-family: 'Playfair Display', serif;
+  font-family: "Playfair Display", serif;
   font-size: 64px;
   text-align: left;
   height: 60%;
 }
 
 .explore-title span {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-size: 22px;
 }
 
@@ -246,6 +248,7 @@ nav button {
   justify-content: space-between;
   width: 100%;
   align-items: center;
+  margin-right: 20px;
 }
 
 .third-section-content img {
@@ -385,21 +388,21 @@ nav button {
 }
 
 .about-quote {
-  font-family: 'Mulish';
+  font-family: "Mulish";
   font-size: 24px;
   line-height: 36px;
   margin-bottom: 40px;
 }
 
 .about-name {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-weight: bold;
   font-size: 22px;
   line-height: 48px;
 }
 
 .about-post {
-  font-family: 'Inter';
+  font-family: "Inter";
   font-size: 18px;
   line-height: 48px;
   color: rgba(0, 0, 0, 0.85);
@@ -449,8 +452,8 @@ nav button {
 
 /* sixth section */
 
-.sixth-section {}
-
+.sixth-section {
+}
 
 .sixth-section-header {
   height: 60px;
@@ -460,7 +463,7 @@ nav button {
 }
 
 .sixth-section-title {
-  font-family: 'Playfair Display';
+  font-family: "Playfair Display";
   font-size: 36px;
   line-height: 50px;
 }
@@ -533,7 +536,7 @@ nav button {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background: #F9F9FB;
+  background: #f9f9fb;
 }
 
 .footer-main {
@@ -598,7 +601,7 @@ nav button {
   padding: 30px 0 0 0;
   margin: 0 auto;
   width: 80%;
-  border-bottom: 1px solid #C4C4C4;
+  border-bottom: 1px solid #c4c4c4;
   height: 1px;
   background: transparent;
 }
